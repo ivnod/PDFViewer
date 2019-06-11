@@ -3,6 +3,8 @@
     package="com.example.ksi074.pdfviewer">
 
     <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:label="TMB Touch"
         android:roundIcon="@mipmap/ic_launcher_round">
@@ -10,10 +12,7 @@
         <activity
             android:name=".PDFActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
     </application>
 </manifest>

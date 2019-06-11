@@ -47,6 +47,7 @@ public class PDFActivity extends AppCompatActivity {
             location = extras.getString("location");
             title = extras.getString("title");
         }
+
         Typeface custom_font = Typeface.createFromAsset(getAssets(), "fonts/DBOzoneX-Medium.ttf");
         toolbar_title_pdf.setTypeface(custom_font);
         toolbar_title_pdf.setText(title);
